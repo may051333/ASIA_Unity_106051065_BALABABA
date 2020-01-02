@@ -32,7 +32,8 @@ public class BALABABA : MonoBehaviour
     {
         print(other.name);
 
-        if (other.name == "道具" && ani.GetCurrentAnimatorStateInfo(0).IsName("攻擊觸發"))
+        Physics.IgnoreCollision(other, GetComponent<Collider>());
+        if (other.name == "道具" && ani.GetCurrentAnimatorStateInfo(0).IsName("攻擊"))
         {
             other.GetComponent<HingeJoint>().connectedBody = rigCatch;
         }

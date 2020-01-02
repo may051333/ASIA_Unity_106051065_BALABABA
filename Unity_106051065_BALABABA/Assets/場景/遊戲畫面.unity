@@ -1450,7 +1450,7 @@ HingeJoint:
   m_BreakTorque: Infinity
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
-  m_MassScale: 1
+  m_MassScale: 0.05
   m_ConnectedMassScale: 1
 --- !u!136 &1360290654
 CapsuleCollider:
