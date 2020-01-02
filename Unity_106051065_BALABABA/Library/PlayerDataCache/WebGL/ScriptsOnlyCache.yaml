@@ -6,6 +6,7 @@ ScriptsOnlyBuild:
     - Consumer
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
   sceneClasses:
     "Assets/\u5834\u666F/\u904A\u6232\u756B\u9762.unity":
     - Class: 1
